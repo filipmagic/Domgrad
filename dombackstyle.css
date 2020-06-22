@@ -1,0 +1,170 @@
+*{margin:0;
+  padding:0;}
+
+.wrapper{width:100%;
+         min-height:100vh;
+         display: block;
+         float: left;
+         background: #DCDCDC;
+         }
+
+.menu{width: 25%; 
+      height:100vh;
+      background:#424242;
+      display: block;
+      float: left;
+      position: fixed;}
+
+.menu ul{width: 100%;
+	     list-style: none;
+         float: left;
+         display: block;
+         }
+.menu ul li{width: 100%;
+            height: 40px;
+            color:#fff;
+            border-bottom:1px solid #636363;
+            text-align: center;
+            line-height: 40px;
+            }
+
+.menu ul li a{text-decoration: none;
+              color:#fff;
+              }
+
+.menu .cms-logo{width:100%;
+                height: 100px;
+                float: left;
+                display: block;
+                color:#fff;
+                font-size: 20px;
+                font-family: Arial;
+                text-align: center;
+                line-height: 100px;}
+.form-align{width:500px;
+            height: auto;
+            margin: 20px;
+            display: block;}
+.cms-logo span{color:#ff1c27;}
+
+.wrapper .right-side{display: block;
+                     width:75%;
+                     height: auto;
+                     float: right;
+
+                     }
+
+.right-side .content{display: block;
+            float:left;
+            width: 90%;
+            height:250px;
+            margin:25px;
+            border-radius:10px;
+            background: #fff;}
+.content .left{width: 25%;
+               float:left;
+               display: block;}
+
+.contanet .rigth{width: 75%;
+                 float: right;
+                 display: block;}
+.left .greeting{width:200px;
+                   display: block;
+                   float: left;
+                   margin:15px;
+               }
+
+.add-product{width:150px;
+	               margin:10px;
+	               border-radius:4px;
+                      height: 35px;
+                      color:#fff;
+                      display: block;
+                      line-height: 35px;
+                      text-align: center;
+                      color:#fff;
+                    background: #ff1c27;}
+.add-product a{text-decoration: none;
+               color:#fff;}
+
+.right .design-elements{width: auto;
+                        display: block;
+                        float: left;
+                        }
+.design-elements ul{list-style: none;
+	                margin:10px;
+	                display: block;
+	                float: left;
+	                width:200px;
+                    }
+
+.design-elements ul .scdn-item{display: block;
+                       width: 150px;
+                       text-align: center;
+                       line-height: 30px;
+                       height: 30px;
+                       margin:10px;
+                       border: 2px solid #202020;
+                       border-radius: 4px;}
+.design-elements ul .scdn-item a{color:#202020;
+                                 text-decoration: none;}
+
+.right-side .products-display{width: 95%;
+                             height:auto;
+                             display: block;
+                             float: left;
+                             background: #fff;
+                             border-radius:10px;
+                             margin:10px;}
+
+.border{border-bottom:1px solid #DCDCDC;}
+table { border-collapse: collapse;
+	    margin:50px;
+        border-spacing: 10px 5px; }
+
+tr{height:50px;}
+
+td{padding: 10px;}
+
+.cursor{border:none;
+        cursor:pointer;}
+
+.right-side .update-container{width: 95%;
+                             height:auto;
+                             display: block;
+                             float: left;
+                             background: #fff;
+                             border-radius:10px;
+                             margin:10px;}
+
+
+h4{font-size:20px;
+   color:#595959;
+   font-weight: 300;
+   font-family: Arial;}
+
+
+
+
+input[type="text"]{width:200px;
+                   height:30px;
+                   display: block;
+                   }
+input[type="checkbox"]{
+                   height:20px;
+                   display: block;
+                   }
+input[type="submit"]{width:150px;
+                   height:30px;
+                   background: #ff4d4d;
+                   border: none;
+                   display: block;
+                   color:#fff;
+                   font-size: 18px;
+                   }
+
+select{width: 200px;
+       height: 30px;
+       display: block;}
+
+form span{display: block;}
